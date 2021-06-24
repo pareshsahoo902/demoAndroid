@@ -7,6 +7,7 @@ class University {
         System.out.println("new Roll");
     }
 
+
 }
 
 class Division extends University{
