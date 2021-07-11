@@ -29,37 +29,37 @@ public class MainActivity extends AppCompatActivity {
         pound2Rupee = findViewById(R.id.poundToRupee);
         pound2Dollar = findViewById(R.id.poundToDollar);
 
-        dollar2Rupee.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                //Intent
-                Intent i = new Intent(MainActivity.this, HomeActivity.class);
-                i.putExtra("type",0);
-                startActivity(i);
-            }
-        });
-        pound2Rupee.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                //Intent
-                Intent i = new Intent(MainActivity.this, HomeActivity.class);
-                i.putExtra("type",1);
-                startActivity(i);
-            }
-        });
-        pound2Dollar.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                //Intent
-                Intent i = new Intent(MainActivity.this, HomeActivity.class);
-                i.putExtra("type",2);
-                startActivity(i);
-            }
-        });
-
+//        dollar2Rupee.setOnClickListener(new View.OnClickListener() {
+//
+//            @Override
+//            public void onClick(View v) {
+//                //Intent
+//                Intent i = new Intent(MainActivity.this, HomeActivity.class);
+//                i.putExtra("type",0);
+//                startActivity(i);
+//            }
+//        });
+//        pound2Rupee.setOnClickListener(new View.OnClickListener() {
+//
+//            @Override
+//            public void onClick(View v) {
+//                //Intent
+//                Intent i = new Intent(MainActivity.this, HomeActivity.class);
+//                i.putExtra("type",1);
+//                startActivity(i);
+//            }
+//        });
+//        pound2Dollar.setOnClickListener(new View.OnClickListener() {
+//
+//            @Override
+//            public void onClick(View v) {
+//                //Intent
+//                Intent i = new Intent(MainActivity.this, HomeActivity.class);
+//                i.putExtra("type",2);
+//                startActivity(i);
+//            }
+//        });
+//
 
     }
 

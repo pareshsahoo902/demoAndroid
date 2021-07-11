@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="30dp"
+    >
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Update Profile Picture!"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:layout_margin="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/choose"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="?attr/selectableItemBackground"
+            android:drawableStart="@drawable/ic_baseline_image_24"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/teal_700"
+            android:gravity="center_vertical"
+            android:paddingStart="20dp"
+            android:text="Choose From Gallery"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/pick"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:background="?attr/selectableItemBackground"
+            android:drawableStart="@drawable/ic_baseline_camera_24"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/teal_700"
+            android:gravity="center_vertical"
+            android:paddingStart="20dp"
+            android:text="Click a Picture"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/saved"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:background="?attr/selectableItemBackground"
+            android:drawableStart="@drawable/ic_baseline_save_24"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/teal_700"
+            android:gravity="center_vertical"
+            android:paddingStart="20dp"
+            android:text="Select from Saved"
+
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

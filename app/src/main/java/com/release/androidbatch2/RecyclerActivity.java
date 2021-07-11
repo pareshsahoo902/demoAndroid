@@ -12,7 +12,7 @@ import java.util.List;
 public class RecyclerActivity extends AppCompatActivity {
     RecyclerView recyclerView;
 
-    List<MOviewMOdel> mOviewMOdels;
+//    List<MOviewMOdel> mOviewMOdels;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,27 +28,27 @@ public class RecyclerActivity extends AppCompatActivity {
         getAllMOvies();
 
 
-        RecyclerAdapter adapter = new RecyclerAdapter(mOviewMOdels, this);
+//        RecyclerAdapter adapter = new RecyclerAdapter(mOviewMOdels, this);
 
         //Step 2: Create a adapter
-        recyclerView.setAdapter(adapter);
+//        recyclerView.setAdapter(adapter);
 
     }
 
     private void getAllMOvies() {
 
-        mOviewMOdels = new ArrayList<>();
-        mOviewMOdels.clear();
+//        mOviewMOdels = new ArrayList<>();
+//        mOviewMOdels.clear();
 
-        mOviewMOdels.add(new MOviewMOdel("Game Of thrones", "9.8", "no summary "));
-        mOviewMOdels.add(new MOviewMOdel("Harry Potter ", "9.8", "no summary "));
-        mOviewMOdels.add(new MOviewMOdel("Muummy", "9.8", "no summary "));
-        mOviewMOdels.add(new MOviewMOdel("Dronie darko", "9.8", "no summary "));
-        mOviewMOdels.add(new MOviewMOdel("GTA", "9.8", "no summary "));
-        mOviewMOdels.add(new MOviewMOdel("GTA", "9.8", "no summary "));
-        mOviewMOdels.add(new MOviewMOdel("GTA", "9.8", "no summary "));
-        mOviewMOdels.add(new MOviewMOdel("GTA", "9.8", "no summary "));
-        mOviewMOdels.add(new MOviewMOdel("GTA", "9.8", "no summary "));
+//        mOviewMOdels.add(new MOviewMOdel("Game Of thrones", "9.8", "no summary "));
+//        mOviewMOdels.add(new MOviewMOdel("Harry Potter ", "9.8", "no summary "));
+//        mOviewMOdels.add(new MOviewMOdel("Muummy", "9.8", "no summary "));
+//        mOviewMOdels.add(new MOviewMOdel("Dronie darko", "9.8", "no summary "));
+//        mOviewMOdels.add(new MOviewMOdel("GTA", "9.8", "no summary "));
+//        mOviewMOdels.add(new MOviewMOdel("GTA", "9.8", "no summary "));
+//        mOviewMOdels.add(new MOviewMOdel("GTA", "9.8", "no summary "));
+//        mOviewMOdels.add(new MOviewMOdel("GTA", "9.8", "no summary "));
+//        mOviewMOdels.add(new MOviewMOdel("GTA", "9.8", "no summary "));
 
 
     }

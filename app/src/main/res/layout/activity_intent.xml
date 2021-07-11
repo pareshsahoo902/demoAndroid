@@ -6,6 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".IntentActivity">
 
+    <TextView
+        android:id="@+id/otpText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_below="@+id/image"
+        android:text="OTP: - "
+        android:layout_centerHorizontal="true"
+        />
+
 
     <ImageView
         android:layout_width="match_parent"
@@ -28,7 +38,7 @@
         android:id="@+id/send"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="send to whatsapp"
+        android:text="Dlete Image"
         android:layout_centerVertical="true"
         android:layout_margin="10dp"
         android:layout_below="@+id/edit"
@@ -41,7 +51,7 @@
         android:layout_height="wrap_content"
         android:text="CHOOSE FROM GALLERY"
         android:layout_centerVertical="true"
-        android:layout_margin="10dp"
+        android:layout_marginTop="40dp"
         />
     <Button
         android:id="@+id/click"
